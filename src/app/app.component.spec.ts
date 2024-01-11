@@ -7,9 +7,7 @@ describe('AppComponent', () => {
       imports: [AppComponent],
     }).compileComponents();
   });
-
-
-  it('should  be not create the app', () => {
+  it('should  be not crate the app', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
